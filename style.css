@@ -1,9 +1,37 @@
 .title {
-
      background-color:#FF7F99;
      height:100px;
 }
 
 header{
      background-color:#FF7F99;
+}
+
+
+.body {
+     background-color: #FFFFFF;
+     height: 652px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.imatgecentral {
+     background-color: aqua;
+     width: 50%;
+     height: 100%;
+}
+
+.textcentral {
+     background-color: blueviolet;
+     width: 50%;
+     height: 100%;
+}
+
+.bottom {
+     background-color: #FF7F99;
+     height: 600px;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
 }
