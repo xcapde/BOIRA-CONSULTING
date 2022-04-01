@@ -6,7 +6,9 @@ body {
 header{
      background-color:#FF7F99;
      display: flex;
+     width: 100%;
      height: 100px;
+     position: fixed;                         /* capçalera fixa tot i l'scroll */ 
 }
 
 .title {
@@ -28,13 +30,13 @@ header{
 }
 
 .Consulting {
-     color: #ffdd87;;
+  color: #fff27e;
      font-family: 'Jost', sans-serif;
      font-size: 40px;
 }
 
 .menu {
-     font-size: 20px;
+     font-size: 25px;
      display: flex;
      align-items: center;
      justify-content: space-around;
@@ -51,12 +53,13 @@ header{
      display: flex;
      justify-content: flex-start;
      align-items: center;
+     padding-top: 100px;                   /* perquè caçalera està fixa tot i l'scroll */ 
 }
 
 .imatgecentral {
      padding: 30px;
      width: 50%;
-     min-width: 500px;
+     min-width: 600px;
 }
 
 a:hover {
@@ -66,9 +69,7 @@ a:hover {
      color:#FFFFFF;
      text-decoration: none;
      border-width: 1px;
-     background-color: #ff9492;
-
-     
+     background-color: #ff9492;  
 }
 
 a:visited {
@@ -82,38 +83,53 @@ a:link {
      padding-left:25px;
      padding-top:10px;
      padding-right:25px;
-     padding-bottom:10px;
-
-     
+     padding-bottom:10px;   
 }
 
 a:active {
      background-color: #ffca41;
 }
 
-
-
 .textcentral {
      background-color: #FFFFFF;
      width: 50%;
      height: 100%;
-    
+     padding-left: 100px;
 }
 
-h1 {
+
+h1 {                               /* títol central */
      font-size: 75px;
      font-weight:400;
      color: #d06077;
      margin: 0px;
 }
 
+.consultores{
+     display: flex;
+     margin-top: 140px;   
+}
+
+.tecnologicos {
+     display:flex;
+     margin-top: -160px;
+
+}
+
+.secundari {                        /* subtitol central */
+     display: flex;
+     color:black;
+     font-size: 21px;
+     margin:0px;
+     justify-content: flex-start;     
+} 
 
 .boto {
      width: fit-content;
      height: fit-content;
      display: flex;
      color: #FFFFFF;
-     font-weight: 200;
+     font-weight:bold;
      font-size: 20px;
      background-color: #ffca41;
      border-radius: 45px;
@@ -130,7 +146,6 @@ h1 {
      background-color: #91e40b;
      border-color: #91e40b;
      color: #FFFFFF;
-     -webkit-transition-duration: 0.4s;
    }
    
 .boto:active {
@@ -138,7 +153,6 @@ h1 {
      border-color: #b5f055;
      border-style:inherit;
      color: #FFFFFF;
-     -webkit-transition-duration: 0.1s;
    }
 
 .bottom {
@@ -160,17 +174,21 @@ h1 {
      background-color: #ff7f99;
      border-color: #ff7f99;
      }
-h2{
+h2{                                /*Nom Avatar*/
      display:flex;
      color:white;
      justify-content:center;
      font-weight: bold;
+     margin: 0;
+     padding: 0;
 }
 
-h3{
+h3{                                /*Subtitol Avatar*/
      display:flex;
      justify-content:center;
      font-weight: bold;
+     margin: 0;
+     padding: 0;
 }
 
 .linkedin {
@@ -178,24 +196,5 @@ h3{
      margin:auto;
      height:30px;
      width:30px;
-}
-
-.secundari {
-     display: flex;
-     color:black;
-     margin:0px;
-     justify-content: flex-start;
-
-     
-} 
-
-.consultores{
-     display: flex;
-     margin-top: 140px;   
-}
-
-.tecnologicos {
-     display:flex;
-     margin-top: -160px;
-
+     margin-top: -20px;
 }
