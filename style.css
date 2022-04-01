@@ -97,6 +97,7 @@ a:active {
      background-color: #FFFFFF;
      width: 50%;
      height: 100%;
+    
 }
 
 h1 {
@@ -106,12 +107,7 @@ h1 {
      margin: 0px;
 }
 
-h2 {
-     font-size: 20px;
-     font-weight:normal;
-     color:black;
-     margin: 0px;
-}
+
 
 .boto {
      width: fit-content;
@@ -179,4 +175,24 @@ h2{
      margin:auto;
      height:30px;
      width:30px;
+}
+
+.secundari {
+     display: flex;
+     color:black;
+     margin:0px;
+     justify-content: flex-start;
+
+     
+} 
+
+.consultores{
+     display: flex;
+     margin-top: 140px;   
+}
+
+.tecnologicos {
+     display:flex;
+     margin-top: -160px;
+
 }
