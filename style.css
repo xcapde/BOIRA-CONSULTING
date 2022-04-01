@@ -28,7 +28,7 @@ header{
 }
 
 .Consulting {
-     color:#ffca41;
+     color: #ffdd87;;
      font-family: 'Jost', sans-serif;
      font-size: 40px;
 }
@@ -165,3 +165,22 @@ h2 {
      background-color: #ff7f99;
      border-color: #ff7f99;
      }
+h2{
+     display:flex;
+     color:white;
+     justify-content:center;
+     font-weight: bold;
+}
+
+h2{
+     display:flex;
+     justify-content:center;
+     font-weight: bold;
+}
+
+.linkedin {
+     display:block;
+     margin:auto;
+     height:30px;
+     width:30px;
+}
