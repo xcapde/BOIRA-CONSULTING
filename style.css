@@ -106,7 +106,8 @@ h1 {
      margin: 0px;
 }
 
-h2 {
+.subtextprincipal {
+     justify-content: flex-start;
      font-size: 20px;
      font-weight:normal;
      color:black;
@@ -172,7 +173,7 @@ h2{
      font-weight: bold;
 }
 
-h2{
+h3{
      display:flex;
      justify-content:center;
      font-weight: bold;
