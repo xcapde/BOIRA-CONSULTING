@@ -1,5 +1,6 @@
 body {
      margin: 0px;
+     font-family: 'Jost', sans-serif;
 }
 
 header{
@@ -16,6 +17,20 @@ header{
      font-weight: bold;
      width: 55%;
      min-width: 300px;
+     pointer-events: none;
+     cursor: default;
+}
+
+.Boira {
+     color:white;
+     font-family: 'Jost', sans-serif;
+     font-size: 40px;
+}
+
+.Consulting {
+     color:#ffca41;
+     font-family: 'Jost', sans-serif;
+     font-size: 40px;
 }
 
 .menu {
@@ -26,6 +41,7 @@ header{
      width: 45%;
      height: 100%;
      padding-right: 30px;
+     text-decoration: none;
 }
 
 .body {
@@ -41,6 +57,40 @@ header{
      padding: 30px;
      width: 50%;
 }
+
+a:hover {
+     border-style:solid;
+     border-color: #ffca41;
+     border-radius: 45px;
+     color:#FFFFFF;
+     text-decoration: none;
+     border-width: 1px;
+     background-color: #ff9492;
+
+     
+}
+
+a:visited {
+     color:#FFFFFF;
+     text-decoration: none;
+}
+
+a:link {
+     color:#FFFFFF;
+     text-decoration: none;
+     padding-left:25px;
+     padding-top:10px;
+     padding-right:25px;
+     padding-bottom:10px;
+
+     
+}
+
+a:active {
+     background-color: #ffca41;
+}
+
+
 
 .textcentral {
      background-color: #FFFFFF;
