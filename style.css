@@ -160,3 +160,8 @@ h2 {
      width: 277px;
      border-radius: 50%;
 }
+
+.bottom a:hover {                          
+     background-color: #ff7f99;
+     border-color: #ff7f99;
+     }
