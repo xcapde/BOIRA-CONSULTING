@@ -5,33 +5,41 @@ body {
 header{
      background-color:#FF7F99;
      display: flex;
+     height: 100px;
 }
 
 .title {
-     background-color:#FF7F99;
-     justify-content: flex-start;
-     height:100px;
-     width: 40%;
-     min-width: 200px;
+     display: flex;
+     margin-left: 40px;
+     align-items: center;
+     font-size: 40px;
+     font-weight: bold;
+     width: 55%;
+     min-width: 300px;
 }
 
 .menu {
+     font-size: 20px;
+     display: flex;
+     align-items: center;
      justify-content: space-around;
-     width: 60%;
+     width: 45%;
+     height: 100%;
+     padding-right: 30px;
 }
 
 .body {
      background-color: #FFFFFF;
      height: 652px;
+     width: 100%;
      display: flex;
+     justify-content: flex-start;
      align-items: center;
-     justify-content: center;
 }
 
 .imatgecentral {
-     background-color: #FFFFFF;
+     padding: 30px;
      width: 50%;
-     height: 100%;
 }
 
 .textcentral {
@@ -43,6 +51,7 @@ header{
 .bottom {
      background-color: #FF7F99;
      height: 600px;
+     width: 100%;
      display: flex;
      align-items: center;
      justify-content: space-around;
