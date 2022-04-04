@@ -1,3 +1,5 @@
+
+
 body {
      margin: 0px;
      font-family: 'Jost', sans-serif;
@@ -22,6 +24,7 @@ header{
      /*pointer-events:none;*/                   /*desactivat perquè l'usuari ha de saber que clicant al logotip tornes a inici*/
      cursor: default;
      min-width: 400px;
+     
 }
 
 .Boira {
@@ -45,6 +48,7 @@ header{
      height: 100%;
      padding-right: 30px;
      text-decoration: none;
+     
 }
 
 .body {
@@ -204,3 +208,5 @@ h3{                                /*Subtitol Avatar*/
      width:30px;
      padding-top: 10px;
 }
+
+
