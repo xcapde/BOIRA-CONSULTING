@@ -20,7 +20,7 @@ header{
     font-weight: bold;
     width: 55%;
     min-width: 300px;
-    /*pointer-events:none;*/                   /*desactivat perquè l'usuari ha de saber que clicant al logotip tornes a inici*/
+    /*pointer-events:none;/                   /*desactivat perquè l'usuari ha de saber que clicant al logotip tornes a inici*/
     cursor: default;
     min-width: 400px;
     
@@ -84,25 +84,6 @@ header{
 }
 
 
-
-
-
-
-
-
-.boto:hover {
-    background-color: #91e40b;
-    border-color: #91e40b;
-    color: #FFFFFF;
-  }
-  
-.boto:active {
-    background-color: #b5f055;
-    border-color: #b5f055;
-    border-style:inherit;
-    color: #FFFFFF;
-  }
-
 #contactenos {
         width: fit-content;
         height: fit-content;
@@ -122,17 +103,7 @@ header{
     
 }
 
-.form{
-    background-color: #FFFFFF;
-    height: 652px;
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    padding-top: 100px;    
-    flex-direction: column;
-}
-
-
+                                                                         /*FORMULARI*/
 
 h1{
     color:black;
@@ -148,36 +119,130 @@ form {
     padding-top: 50px;
     flex-direction: column;
     display: flex;
-    
+}
+
+.form{
+    background-color: #FFFFFF;
+    height: 652px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 100px;    
+    flex-direction: column;
 }
 
 #name{
     margin-bottom: 20px;
     margin-right: 50%;
+    padding-left: 20px;
+    height: 30px;
+    border-radius: 20px;
+    border-width: 1.5px;
+    border-color: #ffca41;
+    border-style: solid;
 }
+
+#name:hover {
+    border-color: #91e40b;
+    border-width: 2px;
+}
+
 #lastname{
     margin-bottom: 20px;
     margin-right: 50%;
+    padding-left: 20px;
+    height: 30px;
+    border-radius: 20px;
+    border-width: 1.5px;
+    border-color: #ffca41;
+    border-style: solid;
 }
+
+#lastname:hover {
+    border-color: #91e40b;
+    border-width: 2px;
+}
+
 #phone{
     margin-bottom: 20px;
     margin-right: 50%;
+    padding-left: 20px;
+    height: 30px;
+    border-radius: 20px;
+    border-width: 1.5px;
+    border-color: #ffca41;
+    border-style: solid;
 }
+
+#phone:hover {
+    border-color: #91e40b;
+    border-width: 2px;
+}
+
 #mail{
     margin-bottom: 20px;
     margin-right: 50%;
+    padding-left: 20px;
+    height: 30px;
+    border-radius: 20px;
+    border-width: 1.5px;
+    border-color: #ffca41;
+    border-style: solid;
 }
+
+#mail:hover {
+    border-color: #91e40b;
+    border-width: 2px;
+}
+
 #message {
     margin-right:40%;
     margin-bottom: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    border-width: 1.5px;
+    border-color: #ffca41;
+    border-style: solid;.
+}
+
+#message:hover {
+    border-color: #91e40b;
+    border-width: 2px;
 }
 
 #submit {
+    color: #FFFFFF;
+    font-weight: bold;
     margin-left: 50%;
     margin-right: 40%;
+    border-radius: 45px;
+    border-style: solid;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 40px; 
+    background-color: #ffca41;
+    border-radius: 45px;
+    border-color: #ffca41;
 }
    
+#submit:hover {
+    background-color: #91e40b;
+    border-color: #91e40b;
+    color: #FFFFFF;
+  }
+  
+#submit:active {
+    background-color: #b5f055;
+    border-color: #b5f055;
+    color: #FFFFFF;
+  }
 
-
+#submit:active {
+    background-color: #b5f055;
+    border-color: #b5f055;
+    color: #FFFFFF;
+}
 
 
