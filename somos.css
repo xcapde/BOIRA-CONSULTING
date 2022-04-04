@@ -102,36 +102,15 @@ header{
 .textcentral {
      background-color: #FFFFFF;
      width: 50%;
-     height: 100%;
-     padding-left: 100px;
-}
-
-
-h1 {                               /* títol central */
-     font-size: 75px;
-     font-weight:400;
-     color: #d06077;
-     margin: 0px;
-}
-
-.consultores{
      display: flex;
-     margin-top: 140px;   
+     justify-content: flex-start;
+     margin-right: 150px;
+     height: 80%;
+     flex-direction: row;
+     
+
+     
 }
-
-.tecnologicos {
-     display:flex;
-     margin-top: -160px;
-
-}
-
-.secundari {                        /* subtitol central */
-     display: flex;
-     color:black;
-     font-size: 21px;
-     margin:0px;
-     justify-content: flex-start;     
-} 
 
 .boto {
      width: fit-content;
@@ -165,13 +144,25 @@ h1 {                               /* títol central */
      color: #FFFFFF;
    }
 
-.bottom {
-     background-color: #FF7F99;
-     height: 600px;
-     width: 100%;
+
+
+p{
+     font-size: 20px;
+     line-height: 40px;
+}
+
+.fotosequip{
      display: flex;
-     align-items: center;
-     justify-content: space-around;
+     margin:auto;
+
+
+
+     
+
+     
+
+
+     
 }
 
 .avatar{
@@ -184,34 +175,3 @@ h1 {                               /* títol central */
      max-height: 100%;
      min-height: 50px;
 }
-
-
-h2{                                         /*Nom Avatar*/
-     display:flex;
-     color:white;
-     justify-content:center;
-     font-weight: bold;
-     margin: 0;                       
-     padding: 0;
-     font-size: 1.5vw;                /*responsive text*/
-}
-
-h3{                                  /*Subtitol Avatar*/
-     display:flex;
-     justify-content:center;
-     font-weight: bold;
-     margin: 0;
-     padding: 0;
-     font-size: 1.2vw;               /*responsive text*/
-}
-
-.linkedin {
-     display:block;
-     margin:auto;
-     height:30px;
-     width:30px;
-     padding-top: 10px;
-}
-
-
-
