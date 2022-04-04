@@ -176,10 +176,7 @@ h1 {                               /* títol central */
      border-radius: 50%;
 }
 
-.bottom a:hover {                          
-     background-color: #ff7f99;
-     border-color: #ff7f99;
-     }
+
 h2{                                /*Nom Avatar*/
      display:flex;
      color:white;
