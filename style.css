@@ -11,7 +11,7 @@ header{
      position: fixed;                         /* capçalera fixa tot i l'scroll */ 
 }
 
-.title {
+.logo {
      display: flex;
      margin-left: 40px;
      align-items: center;
@@ -19,7 +19,7 @@ header{
      font-weight: bold;
      width: 55%;
      min-width: 300px;
-     pointer-events: none;
+     /*pointer-events:none;*/                   /*desactivat perquè l'usuari ha de saber que clicant al logotip tornes a inici*/
      cursor: default;
 }
 
@@ -30,7 +30,7 @@ header{
 }
 
 .Consulting {
-  color: #fff27e;
+     color: #fff27e;
      font-family: 'Jost', sans-serif;
      font-size: 40px;
 }
@@ -62,7 +62,11 @@ header{
      min-width: 600px;
 }
 
-a:hover {
+.logolink:link{
+     text-decoration: none;
+}
+
+.menulink:hover {
      border-style:solid;
      border-color: #ffca41;
      border-radius: 45px;
@@ -72,12 +76,12 @@ a:hover {
      background-color: #ff9492;  
 }
 
-a:visited {
+.menulink:visited {
      color:#FFFFFF;
      text-decoration: none;
 }
 
-a:link {
+.menulink:link {
      color:#FFFFFF;
      text-decoration: none;
      padding-left:25px;
@@ -86,7 +90,7 @@ a:link {
      padding-bottom:10px;   
 }
 
-a:active {
+.menulink:active {
      background-color: #ffca41;
 }
 
@@ -137,9 +141,10 @@ h1 {                               /* títol central */
      border-style: solid;
      padding-left: 35px;
      padding-right: 35px;
-     padding-top: 20px;
-     padding-bottom: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
      margin-top: 40px; 
+     text-decoration: none;
 }
 
 .boto:hover {
@@ -196,5 +201,5 @@ h3{                                /*Subtitol Avatar*/
      margin:auto;
      height:30px;
      width:30px;
-     margin-top: -20px;
+     padding-top: 10px;
 }
