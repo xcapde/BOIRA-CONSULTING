@@ -1,6 +1,8 @@
+
 body {
      margin: 0px;
      font-family: 'Jost', sans-serif;
+     /*overflow-x: hidden;*/              /* per deshabilitar scroll horitzontal de tota la pàgina*/
 }
 
 header{
@@ -9,6 +11,7 @@ header{
      width: 100%;
      height: 100px;
      position: fixed;                         /* capçalera fixa tot i l'scroll */ 
+     font-family: 'Jost', sans-serif; 
 }
 
 .logo {
@@ -19,9 +22,10 @@ header{
      font-weight: bold;
      width: 55%;
      min-width: 300px;
-     /*pointer-events:none;*/                   /*desactivat perquè l'usuari ha de saber que clicant al logotip tornes a inici*/
+     pointer-events:none;                    /*habilitar mà sobre link logotip per tornar a inici*/
      cursor: default;
      min-width: 400px;
+     
 }
 
 .Boira {
@@ -45,6 +49,7 @@ header{
      height: 100%;
      padding-right: 30px;
      text-decoration: none;
+     
 }
 
 .body {
@@ -174,24 +179,31 @@ h1 {                               /* títol central */
      height: 277px;
      width: 277px;
      border-radius: 50%;
+     max-width: 100%;
+     min-width: 50px;
+     height: auto;                       /*responsive image*/
+     max-height: 100%;
+     min-height: 50px;
 }
 
 
-h2{                                /*Nom Avatar*/
+h2{                                         /*Nom Avatar*/
      display:flex;
      color:white;
      justify-content:center;
      font-weight: bold;
-     margin: 0;
+     margin: 0;                       
      padding: 0;
+     font-size: 1.5vw;                /*responsive text*/
 }
 
-h3{                                /*Subtitol Avatar*/
+h3{                                  /*Subtitol Avatar*/
      display:flex;
      justify-content:center;
      font-weight: bold;
      margin: 0;
      padding: 0;
+     font-size: 1.2vw;               /*responsive text*/
 }
 
 .linkedin {
@@ -201,3 +213,6 @@ h3{                                /*Subtitol Avatar*/
      width:30px;
      padding-top: 10px;
 }
+
+
+

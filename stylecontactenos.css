@@ -1,0 +1,218 @@
+body {
+    margin: 0px;
+    font-family: 'Jost', sans-serif;
+}
+
+header{
+    background-color:#FF7F99;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    position: fixed;                         /* capçalera fixa tot i l'scroll */ 
+    font-family: 'Jost', sans-serif; 
+}
+
+.logo {
+    display: flex;
+    margin-left: 40px;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    width: 55%;
+    min-width: 300px;
+    /*pointer-events:none;*/                   /*desactivat perquè l'usuari ha de saber que clicant al logotip tornes a inici*/
+    cursor: default;
+    min-width: 400px;
+    
+}
+
+.Boira {
+    color:white;
+    font-family: 'Jost', sans-serif;
+    font-size: 40px;
+}
+
+.Consulting {
+    color: #fff27e;
+    font-family: 'Jost', sans-serif;
+    font-size: 40px;
+}
+
+.menu {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 45%;
+    height: 100%;
+    padding-right: 30px;
+    text-decoration: none;
+    
+}
+
+
+.logolink:link{
+    text-decoration: none;
+}
+
+.menulink:hover {
+    border-style:solid;
+    border-color: #ffca41;
+    border-radius: 45px;
+    color:#FFFFFF;
+    text-decoration: none;
+    border-width: 1px;
+    background-color: #ff9492;  
+}
+
+.menulink:visited {
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+.menulink:link {
+    color:#FFFFFF;
+    text-decoration: none;
+    padding-left:25px;
+    padding-top:10px;
+    padding-right:25px;
+    padding-bottom:10px;   
+}
+
+.menulink:active {
+    background-color: #ffca41;
+}
+
+
+.boto:hover {
+    background-color: #91e40b;
+    border-color: #91e40b;
+    color: #FFFFFF;
+  }
+  
+.boto:active {
+    background-color: #b5f055;
+    border-color: #b5f055;
+    border-style:inherit;
+    color: #FFFFFF;
+  }
+
+#contactenos {
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        color: #FFFFFF;
+        font-weight:bold;
+        font-size: 20px;
+        background-color: #ffca41;
+        border-radius: 45px;
+        border-color: #ffca41;
+        border-style: solid;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-decoration: none;
+    
+}
+
+.form{
+    background-color: #FFFFFF;
+    height: 652px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 100px;    
+    flex-direction: column;
+}
+
+
+
+h1{
+    color:black;
+    margin:0px;
+    display: flex;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+    
+form {
+    display: block;
+    padding-left: 50px;
+    padding-top: 50px;
+    flex-direction: column;
+    display: flex;
+    
+}
+
+#name{
+    margin-bottom: 20px;
+    margin-right: 50%;
+    border-radius: 45px;
+    padding: 10px;
+    border-color: #ffca41;
+    border-width: 2px;
+    border-style: solid;
+}
+#lastname{
+    margin-bottom: 20px;
+    margin-right: 50%;
+    border-radius: 45px;
+    padding: 10px;
+    border-color: #ffca41;
+    border-width: 2px;
+    border-style: solid;
+}
+#phone{
+    margin-bottom: 20px;
+    margin-right: 50%;
+    border-radius: 45px;
+    padding: 10px;
+    border-color: #ffca41;
+    border-width: 2px;
+    border-style: solid;
+}
+#mail{
+    margin-bottom: 20px;
+    margin-right: 50%;
+    border-radius: 45px;
+    padding: 10px;
+    border-color: #ffca41;
+    border-width: 2px;
+    border-style: solid;
+}
+#message {
+    margin-right:40%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: #ffca41;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#submit {
+    margin-left: 50%;
+    margin-right: 40%;
+    padding: 5px;
+    border-radius: 45px;
+    border-color:#ffca41;
+    background-color: #ffca41;
+    color:#FFFFFF;
+    border-style: solid;
+    font-size: 16px;
+}
+
+.fotosend{
+    height:20px;
+    width:20px;
+    display: flex;
+    margin-left: 57.5%;
+    margin-right: 40%;
+    margin-top: -25px;
+}
+   
+
+
+
+
