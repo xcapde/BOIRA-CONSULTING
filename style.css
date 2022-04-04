@@ -21,6 +21,7 @@ header{
      min-width: 300px;
      /*pointer-events:none;*/                   /*desactivat perquè l'usuari ha de saber que clicant al logotip tornes a inici*/
      cursor: default;
+     min-width: 400px;
 }
 
 .Boira {
