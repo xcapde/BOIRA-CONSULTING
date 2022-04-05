@@ -118,6 +118,7 @@ form {
     padding-top: 50px;
     flex-direction: column;
     display: flex;
+    max-width: 1500px;
 }
 
 .form{
@@ -250,6 +251,8 @@ form {
     background-color: #ffca41;
     border-radius: 45px;
     border-color: #ffca41;
+    min-width: 150px;
+    max-width: 150px;
 }
    
 #submit:hover {
