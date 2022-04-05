@@ -2,8 +2,6 @@
 body {
      margin: 0px;
      font-family: 'Jost', sans-serif;
-     min-width: 1000px;
-     background-color:#FF7F99;
      /*overflow-x: hidden;*/              /* per deshabilitar scroll horitzontal de tota la pàgina*/
 }
 
@@ -12,8 +10,7 @@ header{
      display: flex;
      width: 100%;
      height: 100px;
-     position: fixed;                         /* capçalera fixa tot i l'scroll */ 
-     font-family: 'Jost', sans-serif; 
+     position: fixed;                        /* capçalera fixa tot i l'scroll */ 
 }
 
 .logo {
@@ -54,21 +51,8 @@ header{
      
 }
 
-.body {
-     background-color: #FFFFFF;
-     height: 652px;
-     width: 100%;
-     display: flex;
-     justify-content: flex-start;
-     align-items: center;
-     padding-top: 100px;                   /* perquè caçalera està fixa tot i l'scroll */ 
-}
 
-.imatgecentral {
-     padding: 30px;
-     width: 50%;
-     min-width: 600px;
-}
+
 
 .logolink:link{
      text-decoration: none;
@@ -102,39 +86,7 @@ header{
      background-color: #ffca41;
 }
 
-.textcentral {
-     background-color: #FFFFFF;
-     width: 50%;
-     height: 100%;
-     padding-left: 100px;
-}
 
-
-h1 {                               /* títol central */
-     font-size: 75px;
-     font-weight:400;
-     color: #d06077;
-     margin: 0px;
-}
-
-.consultores{
-     display: flex;
-     margin-top: 140px;   
-}
-
-.tecnologicos {
-     display:flex;
-     margin-top: -160px;
-
-}
-
-.secundari {                        /* subtitol central */
-     display: flex;
-     color:black;
-     font-size: 21px;
-     margin:0px;
-     justify-content: flex-start;     
-} 
 
 .boto {
      width: fit-content;
@@ -168,53 +120,75 @@ h1 {                               /* títol central */
      color: #FFFFFF;
    }
 
-.bottom {
-     background-color: #FF7F99;
-     height: 600px;
+.body {
+     background-color: #FFFFFF;
+     height:652px;
      width: 100%;
      display: flex;
+     justify-content: flex-start;
      align-items: center;
-     justify-content: space-around;
+     padding-top: 60px;
+  
+}
+
+.imatgecentral {
+     padding: 30px;
+     width: 50%;
+     min-width: 600px;
+}
+
+
+    
+     
+#somos {
+     width: fit-content;
+     height: fit-content;
+     display: flex;
+     color: #FFFFFF;
+     font-size: 25px;
+     background-color: #ffca41;
+     border-radius: 45px;
+     border-color: #ffca41;
+     border-width: 1px;
+     border-style: solid;
+     padding-left: 25px;
+     padding-right: 25px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     text-decoration: none;
+}
+     
+
+
+p{
+     font-size: 20px;
+     line-height: 40px;
+     padding-top: 60px;
+     margin-top: 30px;
+     margin-bottom: 10px;
+     margin-right: 15%;
+     margin-left: 10%;
+     max-width: 600px;
+}
+
+.fotosequip{
+     display:flex;
+     align-items: flex-end;
+     margin-left: 5%;
+     justify-content: flex-start;
+     padding-top: 15px;  
 }
 
 .avatar{
-     height: 277px;
-     width: 277px;
+     height: 100px;
+     width: 100px;
      border-radius: 50%;
      max-width: 100%;
      min-width: 50px;
      height: auto;                       /*responsive image*/
      max-height: 100%;
      min-height: 50px;
+     display: flex;
+     margin: 10px;
 }
-
-
-h2{                                         /*Nom Avatar*/
-     display:flex;
-     color:white;
-     justify-content:center;
-     font-weight: bold;
-     margin: 0;                       
-     padding: 0;
-     font-size: 1.5vw;                /*responsive text*/
-}
-
-h3{                                  /*Subtitol Avatar*/
-     display:flex;
-     justify-content:center;
-     font-weight: bold;
-     margin: 0;
-     padding: 0;
-     font-size: 1.2vw;               /*responsive text*/
-}
-
-.linkedin {
-     display:block;
-     margin:auto;
-     height:30px;
-     width:30px;
-     padding-top: 10px;
-}
-
-
-
+    

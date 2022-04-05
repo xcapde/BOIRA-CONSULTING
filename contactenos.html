@@ -10,7 +10,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
     
-
 </head>
 
 <body>
@@ -20,9 +19,9 @@
         </div>
 
         <div class="menu">
-            <a href="somos" class="menulink">Somos</a>
-            <a href="#equipo" class="menulink">Equipo</a>
-            <a href="contact" class="menulink" id="contactenos">Contáctenos</a>
+            <a href="./somos.html" class="menulink">Somos</a>
+            <a href="./index.html#equipo" class="menulink">Equipo</a>
+            <a href="./contactenos.html" class="menulink" id="contactenos">Contáctenos</a>
         </div>
     </header>
 
@@ -32,12 +31,13 @@
             </div>
 
             <form>
-                <input type="text" id="name" name="name" placeholder="Nombre">
-                <input type="text" id="lastname" name="lastname" placeholder="Apellidos"> 
-                <input type="tel" id="phone" name="phone" pattern="[0-9]{9}" placeholder="Teléfono de contacto">
-                <input type="email" id="mail" name="mail" placeholder="Correo electronico"> 
-                <textarea id=message name="message" rows="5" cols="10" placeholder="¿Cómo te podemos ayudar?"></textarea>
-                <input type="submit" id="submit"> <img class="fotosend" src="fotos/invertit copia.png">
+                <input type="text" id="name" name="name" placeholder="Nombre"required autofocus>
+                <input type="text" id="lastname" name="lastname" placeholder="Apellidos" required> 
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{9}" placeholder="Teléfono de contacto" required>
+                <input type="email" id="mail" name="mail" placeholder="Correo electronico" required> 
+                <textarea id=message name="message" rows="5" cols="10" placeholder="¿Cómo te podemos ayudar?" required></textarea>
+                <input type="submit" id="submit" value="Enviar"><img class="fotosend" src="fotos/invertit copia.png">
+
     </div>
 
 

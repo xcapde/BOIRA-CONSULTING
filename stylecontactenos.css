@@ -20,7 +20,7 @@ header{
     font-weight: bold;
     width: 55%;
     min-width: 300px;
-    /*pointer-events:none;*/                   /*desactivat perquè l'usuari ha de saber que clicant al logotip tornes a inici*/
+    /*pointer-events:none;/                   /*desactivat perquè l'usuari ha de saber que clicant al logotip tornes a inici*/
     cursor: default;
     min-width: 400px;
     
@@ -84,49 +84,25 @@ header{
 }
 
 
-.boto:hover {
-    background-color: #91e40b;
-    border-color: #91e40b;
-    color: #FFFFFF;
-  }
-  
-.boto:active {
-    background-color: #b5f055;
-    border-color: #b5f055;
-    border-style:inherit;
-    color: #FFFFFF;
-  }
-
 #contactenos {
         width: fit-content;
         height: fit-content;
         display: flex;
         color: #FFFFFF;
-        font-weight:bold;
-        font-size: 20px;
+        font-size: 25px;
         background-color: #ffca41;
         border-radius: 45px;
         border-color: #ffca41;
+        border-width: 1px;
         border-style: solid;
-        padding-left: 35px;
-        padding-right: 35px;
+        padding-left: 25px;
+        padding-right: 25px;
         padding-top: 10px;
         padding-bottom: 10px;
         text-decoration: none;
-    
 }
 
-.form{
-    background-color: #FFFFFF;
-    height: 652px;
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    padding-top: 100px;    
-    flex-direction: column;
-}
-
-
+                                                                         /*FORMULARI*/
 
 h1{
     color:black;
@@ -142,77 +118,161 @@ form {
     padding-top: 50px;
     flex-direction: column;
     display: flex;
-    
+    max-width: 1500px;
+}
+
+.form{
+    background-color: #FFFFFF;
+    height: 652px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 100px;    
+    flex-direction: column;
 }
 
 #name{
     margin-bottom: 20px;
     margin-right: 50%;
-    border-radius: 45px;
-    padding: 10px;
+    padding-left: 20px;
+    height: 30px;
+    border-radius: 20px;
+    border-width: 1.5px;
     border-color: #ffca41;
-    border-width: 2px;
     border-style: solid;
 }
+
+#name:hover {
+    border-color: #FF7F99;
+    border-width: 2px;
+}
+
+#name:valid{
+    border-color: #91e40b;
+    border-width: 2px;
+}
+
 #lastname{
     margin-bottom: 20px;
     margin-right: 50%;
-    border-radius: 45px;
-    padding: 10px;
+    padding-left: 20px;
+    height: 30px;
+    border-radius: 20px;
+    border-width: 1.5px;
     border-color: #ffca41;
-    border-width: 2px;
     border-style: solid;
 }
+
+#lastname:valid{
+    border-color: #91e40b;
+    border-width: 2px;
+}
+
+#lastname:hover {
+    border-color: #FF7F99;
+    border-width: 2px;
+}
+
 #phone{
     margin-bottom: 20px;
     margin-right: 50%;
-    border-radius: 45px;
-    padding: 10px;
+    padding-left: 20px;
+    height: 30px;
+    border-radius: 20px;
+    border-width: 1.5px;
     border-color: #ffca41;
-    border-width: 2px;
     border-style: solid;
 }
+
+#phone:hover {
+    border-color: #FF7F99;
+    border-width: 2px;
+}
+
+#phone:valid{
+    border-color: #91e40b;
+    border-width: 2px;
+}
+
+/*#phone:invalid{                         Sempre surt invàlid si no hi ha res escrit.. no interessa                
+    border-color: #ff6161;
+    border-width: 2px;
+}*/
+
 #mail{
     margin-bottom: 20px;
     margin-right: 50%;
-    border-radius: 45px;
-    padding: 10px;
+    padding-left: 20px;
+    height: 30px;
+    border-radius: 20px;
+    border-width: 1.5px;
     border-color: #ffca41;
-    border-width: 2px;
     border-style: solid;
 }
+
+#mail:hover {
+    border-color: #FF7F99;
+    border-width: 2px;
+}
+
+#mail:valid{
+    border-color: #91e40b;
+    border-width: 2px;
+}
+
 #message {
     margin-right:40%;
     margin-bottom: 20px;
-    border-radius: 10px;
-    padding: 10px;
+    padding-left: 20px;
+    border-radius: 20px;
+    border-width: 1.5px;
     border-color: #ffca41;
-    border-width: 2px;
     border-style: solid;
+}
+
+#message:hover {
+    border-color: #FF7F99;
+    border-width: 2px;
 }
 
 #submit {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
     margin-left: 50%;
     margin-right: 40%;
-    padding: 5px;
     border-radius: 45px;
-    border-color:#ffca41;
-    background-color: #ffca41;
-    color:#FFFFFF;
     border-style: solid;
-    font-size: 16px;
+    padding-left: 0px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 40px; 
+    background-color: #ffca41;
+    border-radius: 45px;
+    border-color: #ffca41;
+    min-width: 150px;
+    max-width: 150px;
 }
-
+   
+#submit:hover {
+    background-color: #91e40b;
+    border-color: #91e40b;
+    color: #FFFFFF;
+  }
+  
+#submit:active {
+    background-color: #b5f055;
+    border-color: #b5f055;
+    color: #FFFFFF;
+  }
+  
 .fotosend{
     height:20px;
     width:20px;
     display: flex;
-    margin-left: 57.5%;
-    margin-right: 40%;
-    margin-top: -25px;
+    margin-left: 57%;
+    margin-top: -35px;
 }
-   
-
-
 
 
