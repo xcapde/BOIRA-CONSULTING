@@ -100,7 +100,6 @@ header{
         padding-top: 10px;
         padding-bottom: 10px;
         text-decoration: none;
-    
 }
 
                                                                          /*FORMULARI*/
@@ -143,6 +142,11 @@ form {
 }
 
 #name:hover {
+    border-color: #FF7F99;
+    border-width: 2px;
+}
+
+#name:valid{
     border-color: #91e40b;
     border-width: 2px;
 }
@@ -158,8 +162,13 @@ form {
     border-style: solid;
 }
 
-#lastname:hover {
+#lastname:valid{
     border-color: #91e40b;
+    border-width: 2px;
+}
+
+#lastname:hover {
+    border-color: #FF7F99;
     border-width: 2px;
 }
 
@@ -175,9 +184,19 @@ form {
 }
 
 #phone:hover {
+    border-color: #FF7F99;
+    border-width: 2px;
+}
+
+#phone:valid{
     border-color: #91e40b;
     border-width: 2px;
 }
+
+/*#phone:invalid{                         Sempre surt invàlid si no hi ha res escrit.. no interessa                
+    border-color: #ff6161;
+    border-width: 2px;
+}*/
 
 #mail{
     margin-bottom: 20px;
@@ -191,6 +210,11 @@ form {
 }
 
 #mail:hover {
+    border-color: #FF7F99;
+    border-width: 2px;
+}
+
+#mail:valid{
     border-color: #91e40b;
     border-width: 2px;
 }
@@ -206,12 +230,13 @@ form {
 }
 
 #message:hover {
-    border-color: #91e40b;
+    border-color: #FF7F99;
     border-width: 2px;
 }
 
 #submit {
     color: #FFFFFF;
+    font-size: 14px;
     font-weight: bold;
     margin-left: 50%;
     margin-right: 40%;
@@ -243,8 +268,7 @@ form {
     height:20px;
     width:20px;
     display: flex;
-    margin-left: 57.5%;
-    margin-right: 40%;
+    margin-left: 57%;
     margin-top: -35px;
 }
 
