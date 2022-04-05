@@ -51,21 +51,8 @@ header{
      
 }
 
-.body {
-     background-color: #FFFFFF;
-     height: 652px;
-     width: 100%;
-     display: flex;
-     justify-content: flex-start;
-     align-items: center;
-     padding-top: 100px;                   /* perquè caçalera està fixa tot i l'scroll */ 
-}
 
-.imatgecentral {
-     padding: 30px;
-     width: 50%;
-     min-width: 600px;
-}
+
 
 .logolink:link{
      text-decoration: none;
@@ -99,18 +86,7 @@ header{
      background-color: #ffca41;
 }
 
-.textcentral {
-     background-color: #FFFFFF;
-     width: 50%;
-     display: flex;
-     justify-content: flex-start;
-     margin-right: 150px;
-     height: 80%;
-     flex-direction: row;
-     
 
-     
-}
 
 .boto {
      width: fit-content;
@@ -144,34 +120,61 @@ header{
      color: #FFFFFF;
    }
 
+.body {
+     background-color: #FFFFFF;
+     height:652px;
+     width: 100%;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     padding-top: 60px;
+  
+}
+
+.imatgecentral {
+     padding: 30px;
+     width: 50%;
+     min-width: 600px;
+}
+
+
+    
+     
+
+     
 
 
 p{
      font-size: 20px;
      line-height: 40px;
+     padding-top: 60px;
+     margin-top: 30px;
+     margin-bottom: 10px;
+     margin-right: 35%;
+     margin-left: 10%;
+    
 }
 
 .fotosequip{
-     display: flex;
-     margin:auto;
-
-
-
-     
+     display:flex;
+     align-items: flex-end;
+     margin-left: 95px;
+     justify-content: flex-start;
 
      
-
-
-     
+  
 }
 
 .avatar{
-     height: 277px;
-     width: 277px;
+     height: 100px;
+     width: 100px;
      border-radius: 50%;
      max-width: 100%;
      min-width: 50px;
      height: auto;                       /*responsive image*/
      max-height: 100%;
      min-height: 50px;
+     display: flex;
+     margin: 10px;
 }
+    
