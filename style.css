@@ -3,7 +3,6 @@ body {
      margin: 0px;
      font-family: 'Jost', sans-serif;
      min-width: 1000px;
-     overflow-x: hidden;
      background-color:#FF7F99;
      /*overflow-x: hidden;*/              /* per deshabilitar scroll horitzontal de tota la pàgina*/
 }
