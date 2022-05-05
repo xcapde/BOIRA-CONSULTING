@@ -181,10 +181,10 @@ h1 {                               /* títol central */
      height: 277px;
      width: 277px;
      border-radius: 50%;
-     max-width: 100%;
+     max-width: 277px;
      min-width: 50px;
      height: auto;                       /*responsive image*/
-     max-height: 100%;
+     max-height: 277px;
      min-height: 50px;
 }
 
@@ -196,7 +196,7 @@ h2{                                         /*Nom Avatar*/
      font-weight: bold;
      margin: 0;                       
      padding: 0;
-     font-size: 1.5vw;                /*responsive text*/
+     /*font-size: 1.5vw;*/                /*responsive text*/
 }
 
 h3{                                  /*Subtitol Avatar*/
@@ -205,7 +205,7 @@ h3{                                  /*Subtitol Avatar*/
      font-weight: bold;
      margin: 0;
      padding: 0;
-     font-size: 1.2vw;               /*responsive text*/
+     /*font-size: 1.2vw;*/               /*responsive text*/
 }
 
 .linkedin {

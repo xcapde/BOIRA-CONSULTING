@@ -128,8 +128,8 @@ header{
      justify-content: flex-start;
      align-items: center;
      padding-top: 60px;
-  
 }
+
 
 .imatgecentral {
      padding: 30px;
@@ -137,9 +137,6 @@ header{
      min-width: 600px;
 }
 
-
-    
-     
 #somos {
      width: fit-content;
      height: fit-content;
@@ -157,8 +154,6 @@ header{
      padding-bottom: 10px;
      text-decoration: none;
 }
-     
-
 
 p{
      font-size: 20px;
