@@ -3,6 +3,11 @@
 ## 📜 RESUM
 
 Pàgina web estàtica amb enllaços funcionals cap als diferents apartats i linkedin. La pàgina no té una estructura adaptable i està pensada per visualitzar-se des de la pantalla del ordinador. Treball col·laboratiu en equip.
+## 🌐 SISTEMA DE TREBALL
+Ha sigut un treball en equip en el que hem fet ús de les següents eines col·laboratives:
+- Figma, per elaborar el prototip.
+- Trello, per administrar el kanban.
+- GitHub, per editar el codi conjuntament.
 
 ## 💻 TECNOLOGIES
 - HTML 5
